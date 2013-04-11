@@ -1,0 +1,37 @@
+* {
+	font-family: Arial;
+	font-size: 10pt;
+	color:4F4F4F;
+}
+body {
+margin:0px;
+}
+a {
+  text-decoration: none;
+  font-weight:bold;
+  color:00000F;
+}
+a:hover {
+  text-decoration: none;
+  color:0000FF;
+}
+input {
+  border:1px solid #551B5C;
+}
+.text_maga_heder {
+  font-size: 20pt;
+  color:0099CC;
+}
+h1,h2 {
+  font-size: 20px;
+  color:0099CC;
+  margin-bottom:5px;
+}
+th {
+  background-color:#EEEEEE;
+  font-weight:bold;
+  font-align:center;
+}
+.AlternateRow {
+  background-color:#FAFAFA;
+}

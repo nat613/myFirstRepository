@@ -1,0 +1,79 @@
+
+.jspHorizontalBar,
+.jspVerticalBar,
+.jspTrack
+{
+	width: 8px;
+}
+.jspVerticalBar {
+	left:0;
+	right:auto;
+	background:none;
+}
+.jspTrack {
+	background: #424242;
+}
+
+.jspDrag
+{
+	background:  #adadad;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+	background: #888;
+}
+
+
+.jspArrow
+{
+	background-color:transparent;
+	background-image: url('../image/ui-icons_cd0a0a_256x240.png');
+}
+
+.jspVerticalBar>.jspActive,
+.jspArrow:hover
+{
+	background-image: url('../image/ui-icons_888888_256x240.png');
+}
+
+.jspVerticalBar>.jspDisabled,
+.jspVerticalBar>.jspDisabled:hover,
+.jspHorizontalBar>.jspDisabled,
+.jspHorizontalBar>.jspDisabled:hover
+{
+	background-color: transparent;
+	background-image: url('../image/ui-icons_222222_256x240.png');
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 7px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 15px;
+}
+
+.jspArrowUp
+{
+	background-position: -3px -22px;
+}
+
+.jspArrowDown
+{
+	background-position: -68px -19px !important; 
+}
+
+.jspArrowLeft
+{
+	background-position: -100px -14px !important;
+}
+
+.jspArrowRight
+{
+	background-position: -36px -14px !important;
+}
